@@ -1,4 +1,4 @@
-package com.selgp.appium;
+package com.selgp.opensauce.appium;
 
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.interactions.HasTouchScreen;

@@ -4,14 +4,14 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.selgp</groupId>
-        <artifactId>openselgp-automation-framework</artifactId>
+        <groupId>com.selgp.opensauce</groupId>
+        <artifactId>opensauce-selgp-automation-framework</artifactId>
         <version>1.0.1</version>
 	</parent>
 	<artifactId>appium</artifactId>
-	<name>Selgp Appium</name>
+	<name>Open Sauce Selgp Opensauce Appium</name>
 	<description>
-        Selgp Appium implementation
+        Selgp Opensauce Appium implementation
   </description>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -50,8 +50,8 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.selgp.core.TestRunner</mainClass>
-							<packageName>com.selgp.core</packageName>
+							<mainClass>com.selgp.opensauce.core.TestRunner</mainClass>
+							<packageName>com.selgp.opensauce.core</packageName>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
 						</manifest>
@@ -66,12 +66,12 @@
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>com.selgp</groupId>
+			<groupId>com.selgp.opensauce</groupId>
 			<artifactId>core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.selgp</groupId>
+            <groupId>com.selgp.opensauce</groupId>
             <artifactId>webdriver</artifactId>
             <version>${project.version}</version>
         </dependency>

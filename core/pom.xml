@@ -4,12 +4,12 @@
         xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.selgp</groupId>
-        <artifactId>openselgp-automation-framework</artifactId>
+        <groupId>com.selgp.opensauce</groupId>
+        <artifactId>opensauce-selgp-automation-framework</artifactId>
         <version>1.0.1</version>
     </parent>
     <artifactId>core</artifactId>
-    <name>Selgp Framework Core</name>
+    <name>Open Sauce Selgp Framework Core</name>
     <description>Contains configuration and common classes for the Selgp Automation Framework.</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,24 +19,6 @@
         <developerConnection>scm:git:git@github.com:saucelabs/sauce-java.git</developerConnection>
         <url>git@github.com:saucelabs/sauce-java.git</url>
     </scm>
-    <distributionManagement>
-        <repository>
-            <id>cloudbees-private-release-repository</id>
-            <url>dav:https://repository-saucelabs.forge.cloudbees.com/release</url>
-        </repository>
-    </distributionManagement>
-    <repositories>
-        <repository>
-            <id>saucelabs-repository</id>
-            <url>https://repository-saucelabs.forge.cloudbees.com/release</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
     <build>
         <plugins>
             <plugin>
@@ -71,7 +53,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.selgp.automation.core.TestRunner</mainClass>
+                            <mainClass>com.selgp.opensauce.automation.core.TestRunner</mainClass>
                             <packageName>com.selgp.automation.automation.core</packageName>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>

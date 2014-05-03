@@ -1,4 +1,4 @@
-package com.selgp.automation.core.saucelabs;
+package com.selgp.opensauce.automation.core.saucelabs;
 
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.methods.FileRequestEntity;

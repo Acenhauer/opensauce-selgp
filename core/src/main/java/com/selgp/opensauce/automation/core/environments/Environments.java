@@ -1,6 +1,6 @@
-package com.selgp.automation.core.environments;
+package com.selgp.opensauce.automation.core.environments;
 
-import com.selgp.automation.core.TestRunner;
+import com.selgp.opensauce.automation.core.TestRunner;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

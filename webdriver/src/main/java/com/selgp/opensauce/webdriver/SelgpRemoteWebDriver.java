@@ -1,4 +1,4 @@
-package com.selgp.selenium.webdriver;
+package com.selgp.opensauce.webdriver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;

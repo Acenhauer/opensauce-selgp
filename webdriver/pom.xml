@@ -4,12 +4,12 @@
         xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.selgp</groupId>
-        <artifactId>openselgp-automation-framework</artifactId>
+        <groupId>com.selgp.opensauce</groupId>
+        <artifactId>opensauce-selgp-automation-framework</artifactId>
         <version>1.0.1</version>
     </parent>
     <artifactId>webdriver</artifactId>
-    <name>Selgp Selenium WebDriver</name>
+    <name>Open Sauce Selgp Selenium WebDriver</name>
     <description>
         Selgp Selenium WebDriver implementation. It uses Sauce On Demand Infrastructure
     </description>
@@ -63,8 +63,8 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.selgp.automation.core.TestRunner</mainClass>
-                            <packageName>com.selgp.automation.core</packageName>
+                            <mainClass>com.selgp.opensauce.automation.core.TestRunner</mainClass>
+                            <packageName>com.selgp.opensauce.automation.core</packageName>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
                         </manifest>
@@ -91,7 +91,7 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>com.selgp</groupId>
+            <groupId>com.selgp.opensauce</groupId>
             <artifactId>core</artifactId>
         </dependency>
         <dependency>

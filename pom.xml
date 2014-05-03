@@ -2,13 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.selgp</groupId>
-    <artifactId>openselgp-automation-framework</artifactId>
+    <groupId>com.selgp.opensauce</groupId>
+    <artifactId>opensauce-selgp-automation-framework</artifactId>
     <version>1.0.1</version>
     <packaging>pom</packaging>
-    <name>Open Source Selgp QA Automation Framework</name>
+    <name>Open Sauce Selgp QA Automation Framework</name>
     <description>
-        Selgp QA Automation Framework (Super POM)
+        Open Sauce Selgp QA Automation Framework (Super POM)
     </description>
     <modules>
         <module>core</module>
@@ -42,8 +42,8 @@
                     <configuration>
                         <archive>
                             <manifest>
-                                <mainClass>com.selgp.automation.core.TestRunner</mainClass>
-                                <packageName>com.selgp.automation.core</packageName>
+                                <mainClass>TestRunner</mainClass>
+                                <packageName>com.selgp.opensauce.automation.core</packageName>
                                 <addClasspath>true</addClasspath>
                                 <classpathPrefix>lib/</classpathPrefix>
                             </manifest>
@@ -90,7 +90,7 @@
         <dependencies>
             <!-- module dependencies -->
             <dependency>
-                <groupId>com.selgp</groupId>
+                <groupId>com.selgp.opensauce</groupId>
                 <artifactId>core</artifactId>
                 <version>${project.version}</version>
             </dependency>

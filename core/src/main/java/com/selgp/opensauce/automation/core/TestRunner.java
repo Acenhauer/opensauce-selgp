@@ -1,8 +1,8 @@
-package com.selgp.automation.core;
+package com.selgp.opensauce.automation.core;
 
 import com.metapossum.utils.scanner.reflect.ClassesInPackageScanner;
-import com.selgp.automation.core.environments.Environments;
-import com.selgp.automation.core.suites.Suites;
+import com.selgp.opensauce.automation.core.environments.Environments;
+import com.selgp.opensauce.automation.core.suites.Suites;
 import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
 import org.testng.reporters.XMLReporter;
@@ -49,7 +49,7 @@ public final class TestRunner {
         suitesProps = new Properties();
         environmentProps = new Properties();
         try {
-            suitesProps.load(new InputStreamReader(TestRunner.class.getClassLoader().getResourceAsStream("suites.properties")));
+            suitesProps.load(new InputStreamReader(TestRunner.class.getClassLoader().getResourceAsStream("automation.properties")));
             environmentProps.load(new InputStreamReader(TestRunner.class.getClassLoader().getResourceAsStream("environments.properties")));
         } catch (FileNotFoundException e) {
             e.printStackTrace();

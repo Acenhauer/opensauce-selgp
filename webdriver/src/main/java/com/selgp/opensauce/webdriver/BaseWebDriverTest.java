@@ -1,7 +1,7 @@
-package com.selgp.selenium.webdriver;
+package com.selgp.opensauce.webdriver;
 
-import com.selgp.automation.core.TestRunner;
-import com.selgp.automation.core.saucelabs.SauceREST;
+import com.selgp.opensauce.automation.core.TestRunner;
+import com.selgp.opensauce.automation.core.saucelabs.SauceREST;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
