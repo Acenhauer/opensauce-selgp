@@ -15,6 +15,29 @@
         <module>webdriver</module>
         <module>appium</module>
     </modules>
+    <scm>
+        <connection>scm:git:git://github.com/saucelabs/sauce-java.git</connection>
+        <developerConnection>scm:git:git@github.com:saucelabs/sauce-java.git</developerConnection>
+        <url>git@github.com:saucelabs/sauce-java.git</url>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>cloudbees-private-release-repository</id>
+            <url>dav:https://repository-saucelabs.forge.cloudbees.com/release</url>
+        </repository>
+    </distributionManagement>
+    <repositories>
+        <repository>
+            <id>saucelabs-repository</id>
+            <url>https://repository-saucelabs.forge.cloudbees.com/release</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
     <build>
         <pluginManagement>
             <plugins>
@@ -83,6 +106,10 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
@@ -304,6 +331,11 @@
                 <groupId>org.jsoup</groupId>
                 <artifactId>jsoup</artifactId>
                 <version>1.7.2</version>
+            </dependency>
+            <dependency>
+                <groupId>com.saucelabs</groupId>
+                <artifactId>sauce_testng</artifactId>
+                <version>LATEST</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
