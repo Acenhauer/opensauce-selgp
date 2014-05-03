@@ -3,14 +3,14 @@ package com.selgp.opensauce.automation.core;
 import com.metapossum.utils.scanner.reflect.ClassesInPackageScanner;
 import com.selgp.opensauce.automation.core.environments.Environments;
 import com.selgp.opensauce.automation.core.suites.Suites;
-import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
-import org.testng.reporters.XMLReporter;
 import org.testng.xml.XmlClass;
 import org.testng.xml.XmlSuite;
 import org.testng.xml.XmlTest;
 
-import java.io.*;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.lang.reflect.Method;
 import java.util.*;
 
@@ -49,7 +49,7 @@ public final class TestRunner {
         suitesProps = new Properties();
         environmentProps = new Properties();
         try {
-            suitesProps.load(new InputStreamReader(TestRunner.class.getClassLoader().getResourceAsStream("automation.properties")));
+            suitesProps.load(new InputStreamReader(TestRunner.class.getClassLoader().getResourceAsStream("suites.properties")));
             environmentProps.load(new InputStreamReader(TestRunner.class.getClassLoader().getResourceAsStream("environments.properties")));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -78,9 +78,6 @@ public final class TestRunner {
         testng.setParallel("methods");
         testng.setConfigFailurePolicy("continue");
         testng.setVerbose(100);
-        XMLReporter xmlReporter = new XMLReporter();
-        testng.addListener(xmlReporter);
-        testng.addListener(new TestListenerAdapter());
         testng.run();
     }
 
