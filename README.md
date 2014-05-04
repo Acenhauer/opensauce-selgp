@@ -3,6 +3,8 @@ opensauce-selgp
 
 Mobile iOS, Android and Web browser automation ready for SauceLabs using Opensauce Selgp.
 
+[![Build Status](https://travis-ci.org/guillemhs/opensauce-selgp.svg?branch=master)](https://travis-ci.org/guillemhs/opensauce-selgp)
+
 Checkout this repo from Github
 
     git clone git@github.com:guillemhs/opensauce-selgp.git
