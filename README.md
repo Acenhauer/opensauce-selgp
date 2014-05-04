@@ -1,7 +1,7 @@
 opensauce-selgp
 ===============
 
-Mobile and Browser automation ready form SauceLabs
+Mobile iOS, Android and Web browser automation ready for SauceLabs using Opensauce Selgp.
 
 Checkout this repo from Github
 
@@ -20,3 +20,9 @@ To see a running WebDriver implementation using Opensauce Selgp, check out this 
 To see a running iPhone Appium implementation using Opensauce Selgp, check out this repo:
 
     https://github.com/guillemhs/opensauce-selgp-iphone
+
+To see a running Android Appium implementation using Opensauce Selgp, check out this repo:
+
+    https://github.com/guillemhs/opensauce-selgp-iphone
+
+For more info, comments or tests,
