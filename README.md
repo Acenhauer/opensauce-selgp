@@ -14,12 +14,15 @@ Go to the folder where have checkout the code from opensauce selgp and compile i
 IMPORTANT NOTE: This repo does not contain tests, to run tests you need to checkout another repos.
 
 To see a running WebDriver implementation using Opensauce Selgp
+
 Check out this repo [Opensauce Selgp Webdriver](https://github.com/guillemhs/opensauce-selgp-webdriver)
 
 To see a running iPhone Appium implementation using Opensauce Selgp
+
 Check out this repo [Opensauce Selgp iPhone Appium](https://github.com/guillemhs/opensauce-selgp-iphone)
 
 To see a running Android Appium implementation using Opensauce Selgp
+
 Check out this repo [Opensauce Selgp Android Appium](https://github.com/guillemhs/opensauce-selgp-android)
 
 For more info, comments or tests, check [Selgp](http://www.selgp.com)
