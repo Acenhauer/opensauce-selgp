@@ -15,14 +15,6 @@
         <module>webdriver</module>
         <module>appium</module>
     </modules>
-    <repositories>
-        <repository>
-            <id>guillemhs-release-repository</id>
-            <url>https://repository-guillemhs.forge.cloudbees.com/release/</url>
-            <releases><enabled>true</enabled></releases>
-            <snapshots><enabled>false</enabled></snapshots>
-        </repository>
-    </repositories>
     <scm>
         <connection>scm:git:git://github.com/saucelabs/sauce-java.git</connection>
         <developerConnection>scm:git:git@github.com:saucelabs/sauce-java.git</developerConnection>
@@ -35,6 +27,16 @@
         </repository>
     </distributionManagement>
     <repositories>
+        <repository>
+            <id>guillemhs-release-repository</id>
+            <url>https://repository-guillemhs.forge.cloudbees.com/release/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
         <repository>
             <id>saucelabs-repository</id>
             <url>https://repository-saucelabs.forge.cloudbees.com/release</url>
