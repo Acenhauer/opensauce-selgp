@@ -8,7 +8,7 @@
         <artifactId>moladek</artifactId>
         <version>1.0.1</version>
 	</parent>
-	<artifactId>selgp-appium</artifactId>
+	<artifactId>moladek-appium</artifactId>
 	<name>Open Sauce SelGP Opensauce Appium</name>
 	<description>
         Selgp Opensauce Appium implementation
@@ -67,12 +67,12 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.selgp.opensauce</groupId>
-			<artifactId>selgp-core</artifactId>
+			<artifactId>moladek-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.selgp.opensauce</groupId>
-            <artifactId>selgp-webdriver</artifactId>
+            <artifactId>moladek-webdriver</artifactId>
             <version>${project.version}</version>
         </dependency>
 	</dependencies>

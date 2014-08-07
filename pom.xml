@@ -11,9 +11,9 @@
         Open Sauce SelGP QA Automation Framework (Super POM)
     </description>
     <modules>
-        <module>core</module>
-        <module>webdriver</module>
-        <module>appium</module>
+        <module>moladek-core</module>
+        <module>moladek-webdriver</module>
+        <module>moladek-appium</module>
     </modules>
     <scm>
         <connection>scm:git:git://github.com/saucelabs/sauce-java.git</connection>

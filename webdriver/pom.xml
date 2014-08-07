@@ -8,7 +8,7 @@
         <artifactId>moladek</artifactId>
         <version>1.0.1</version>
     </parent>
-    <artifactId>selgp-webdriver</artifactId>
+    <artifactId>moladek-webdriver</artifactId>
     <name>Open Sauce SelGP Selenium WebDriver</name>
     <description>
         SelGP Selenium WebDriver implementation. It uses Sauce On Demand Infrastructure

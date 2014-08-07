@@ -8,7 +8,7 @@
         <artifactId>moladek</artifactId>
         <version>1.0.1</version>
     </parent>
-    <artifactId>selgp-core</artifactId>
+    <artifactId>moladek-core</artifactId>
     <name>Open Sauce SelGP Framework Core</name>
     <description>Contains configuration and common classes for the SelGP Automation Framework.</description>
     <properties>
