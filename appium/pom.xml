@@ -9,7 +9,7 @@
         <version>1.0.1</version>
 	</parent>
 	<artifactId>selgp-appium</artifactId>
-	<name>Open Sauce Selgp Opensauce Appium</name>
+	<name>Open Sauce SelGP Opensauce Appium</name>
 	<description>
         Selgp Opensauce Appium implementation
   </description>
