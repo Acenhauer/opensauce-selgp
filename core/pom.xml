@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.selgp.opensauce</groupId>
-        <artifactId>opensauce-selgp-automation-framework</artifactId>
+        <artifactId>moladek</artifactId>
         <version>1.0.1</version>
     </parent>
-    <artifactId>core</artifactId>
-    <name>Open Sauce Selgp Framework Core</name>
-    <description>Contains configuration and common classes for the Selgp Automation Framework.</description>
+    <artifactId>selgp-core</artifactId>
+    <name>Open Sauce SelGP Framework Core</name>
+    <description>Contains configuration and common classes for the SelGP Automation Framework.</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.selgp.opensauce</groupId>
-        <artifactId>opensauce-selgp-automation-framework</artifactId>
+        <artifactId>moladek</artifactId>
         <version>1.0.1</version>
     </parent>
-    <artifactId>webdriver</artifactId>
-    <name>Open Sauce Selgp Selenium WebDriver</name>
+    <artifactId>selgp-webdriver</artifactId>
+    <name>Open Sauce SelGP Selenium WebDriver</name>
     <description>
-        Selgp Selenium WebDriver implementation. It uses Sauce On Demand Infrastructure
+        SelGP Selenium WebDriver implementation. It uses Sauce On Demand Infrastructure
     </description>
     <url>http://maven.apache.org</url>
     <properties>

@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
         <groupId>com.selgp.opensauce</groupId>
-        <artifactId>opensauce-selgp-automation-framework</artifactId>
+        <artifactId>moladek</artifactId>
         <version>1.0.1</version>
 	</parent>
-	<artifactId>appium</artifactId>
+	<artifactId>selgp-appium</artifactId>
 	<name>Open Sauce Selgp Opensauce Appium</name>
 	<description>
         Selgp Opensauce Appium implementation
@@ -67,12 +67,12 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.selgp.opensauce</groupId>
-			<artifactId>core</artifactId>
+			<artifactId>selgp-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.selgp.opensauce</groupId>
-            <artifactId>webdriver</artifactId>
+            <artifactId>selgp-webdriver</artifactId>
             <version>${project.version}</version>
         </dependency>
 	</dependencies>
